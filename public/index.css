@@ -1,0 +1,236 @@
+  body {
+    margin: 0 auto;
+    background-color: #fff;
+    color: #000;
+  
+    margin-right: auto;
+    margin-left: auto;
+  
+    font-family: Monospace;
+    overscroll-behavior: none;
+  }
+  
+ 
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color:#56D679;;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: -5px;
+    border-radius: 1px;
+  }
+  #imge img{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    padding: 40px 30px;
+    flex-direction: row;
+  /*
+    display: flex;
+     flex-direction: row;
+    align-items: flex-start; */
+  
+    margin-left: 30%;
+    width: 90%;
+
+  }
+ 
+  figure.foto img{
+    border-radius: 10px;
+   
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #fff;
+  color: #000;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  overscroll-behavior: none;
+}
+
+#info{
+	top: 0px;
+	width: 100%;
+	padding: 50px;
+	box-sizing: border-box;
+
+	/*-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  
+	pointer-events: none;*/
+	z-index: 1; /* TODO Solve this in HTML */
+
+  text-align: center;
+}
+
+
+#info h1, a{
+  color: #56D679;
+ /* margin-left: 95px;*/
+  word-spacing: 7px;
+  letter-spacing: 1.2px;
+  
+  display: inline;
+  border-radius: 10px;
+ font-family: 'Noto Sans KR', sans-serif;  ;
+
+}
+
+
+
+#info p{
+  display: grid;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#histo{
+	padding: 50px;
+
+  text-align: center;
+}
+#histo h1{
+ color: #000;
+ /* margin-left: 95px;*/
+  word-spacing: 7px;
+  letter-spacing: 1.2px;
+  display: inline;
+  border-radius: 10px;
+ font-family: 'Noto Sans KR', sans-serif;  ;
+}
+/*#histo a{
+  color: #000;
+  background-color: #fff;
+  box-shadow: 15px 0 0 0 #fff;
+}
+*/
+
+.dox {
+  margin-left: 95px;
+}
+#apps img{
+  max-width: 300px;
+}
+ #app{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 60px 30px;
+   margin-left: 50px;
+   flex-direction: row;
+/*
+   display: flex;
+    flex-direction: row;
+   align-items: flex-start; */
+
+   margin-left: 50%;
+   width: 90%;
+   margin-right: auto;
+   margin-left: auto;
+
+   font-family: 'Noto Sans KR', sans-serif;  
+   color: #56D679;
+  }
+
+
+#apps{
+  flex: 1;
+  flex-direction: row;
+  color: #fff;
+
+}
+
+#inf{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px 30px;
+  margin-left: 50px;
+  flex-direction: row;
+/*
+  display: flex;
+   flex-direction: row;
+  align-items: flex-start; */
+
+  margin-left: 50%;
+  width: 90%;
+}
+@media(max-width:650px){
+  #inf{
+    margin-right: auto;
+   margin-left: auto;
+  }
+}
+
+
+#topi{
+  padding: 7px;
+  color: #000;
+}
+
+li.pacientes{
+  background-color: #f1f8e9;
+  box-shadow: 0 2.5px 5px #56D679, 0 6px 6px #56D679;
+  /* box-shadow: sandybrown; */
+  border-radius: 8px;
+  padding: 10px;
+  color: #000;
+}
+
+li.pacientes .blood{
+  display: block;
+/*   flex-direction: row;
+ */  text-align: justify;
+  font-size: 20px;
+  padding: 20px;
+
+}
+
+
+li.pacientes span{
+display: block;
+text-align: justify;
+font-size: 15px;
+line-height: 20px;
+padding: 15px;
+}
+
+button{   
+  display: grid;
+  background-color:#56D679;
+  margin-right: auto;
+  margin-left: 6px;
+  border:none; 
+  color: #000;
+
+  margin-top: 16px;
+  padding: 10px 180px ;
+  border-radius: 7px;
+
+}
+
+
+
+
