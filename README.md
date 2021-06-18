@@ -34,7 +34,7 @@ Esse projeto tem como objetivo ajudar pessoas a tomar medidas para fazer exatame
 Nossa meta é ajudar as pessoas a reduzir os problemas ambientais, introduzindo recursos de aprendizagem sobre a sustentabilidade e diminuir o índice na taxa de óbitos, por motivo do Acidente Vascular Cerebral. Começamos essa jornada: adicionamos uma sala de aula inclusiva, que se trata de uma plataforma que possui informações sobre sustentabilidade e uma plataforma de informações sobre AVC, e poder ter a possibilidade de conversar com um especialista na área.
 
 
-Visualise em  [https://solucao-1e334.web.app/amd.html](https://solucao-1e334.web.app/amd.html).
+Visualise em  [https://solucao-1e334.web.app/amd.html](https://solucao-1e334.web.app/).
 
 
 ### Tecnologias
